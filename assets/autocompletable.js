@@ -25,6 +25,17 @@
     }
 
     var getOffset = function(elem) {
+      elemRect = elem.getBoundingClientRect();
+
+      return {
+        top: elemRect.top + window.scrollY,
+        left: elemRect.left + window.scrollX,
+        height: elem.offsetHeight,
+        width: elem.offsetWidth
+      }
+    }
+
+    var getOffsetOld = function(elem) {
       var _x = 0;
       var _y = 0;
       var e = elem;
