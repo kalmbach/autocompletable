@@ -1,0 +1,27 @@
+div.autocompletable-container {
+  border-bottom: 0;
+  z-index: 999;
+  text-shadow: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+div.autocompletable-list {
+  border-bottom: 0;
+  border: 1px solid #777;
+  background: white;
+  overflow: overlay;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #555;
+}
+
+a.autocompletable-suggestion {
+  font-size: 1.4rem;
+  padding: .4rem 1.4rem;
+  display: block;
+  color: #444;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 1px 5px;
+  cursor: pointer;
+}

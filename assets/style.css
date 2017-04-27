@@ -1,0 +1,15 @@
+.hero.is-primary {
+  max-width: 100%;
+}
+
+.nav-left {
+  justify-content: center;
+}
+
+.level-item {
+  margin: 10px;
+}
+
+label {
+  margin: 10px;
+}
